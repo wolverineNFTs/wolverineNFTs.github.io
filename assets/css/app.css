@@ -595,8 +595,31 @@ html, body {
 
 body {
   overflow-x: hidden;
+  background-color: rgb(0, 0, 70);
 }
 
+.logo{
+  color: rgb(255, 225, 57) !important;
+}
+.emailbox:focus{
+  transition: 0.5s ease-out;
+  border-color: rgb(255, 225, 57) !important;
+}
+.signup{
+  transition: 0.5s ease-out;
+
+}
+
+.signup:hover{
+  transition: 0.5s ease-out;
+
+  border-color: rgb(255, 225, 57) !important;
+  color: rgb(255, 225, 57) !important;
+  transition: 0.5s linear;
+  
+
+
+}
 a {
   color: #141414;
   -webkit-transition: linear 0.1s;
@@ -6093,6 +6116,7 @@ p {
 /* 72px */
 .display-4 {
   font-size: 3.5em;
+  color: white;
 }
 
 /* 56px */
@@ -9589,7 +9613,8 @@ body.loaded:after {
 }
 
 .section-2xl {
-  padding: 240px 0;
+  padding: 180px 0;
+  padding-bottom: 100px;
 }
 
 .section-2xl.bg-image .container, .section-2xl.bg-image .container-fluid {
