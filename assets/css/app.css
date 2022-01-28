@@ -6041,7 +6041,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 0 0 10px;
   letter-spacing: -0.3px;
-  color: #141414;
+  color: #fff;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
@@ -11783,4 +11783,31 @@ div[class*=' bg-black'].sidebar-nav-content .sidebar-bottom {
 .video-box:hover img {
   -webkit-transform: scale(1.02);
   transform: scale(1.02);
+}
+
+
+#clockdiv{
+	font-family: sans-serif;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: transparent;
+	display: inline-block;
+}
+
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+  color: white;
+}
+
+span{
+  color: white;
 }
