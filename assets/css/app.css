@@ -2073,6 +2073,38 @@ div[class*=' bg-black'] .blockquote.blockquote-style-4:before {
     color: rgba(255, 255, 255, 0.2);
 }
 
+.block-ms {
+    margin: 32px auto;
+}
+
+.overflow-container {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.flexible-container {
+    width: calc(350px*14);
+    display: flex;
+}
+
+.flexible-container img {
+    margin: 0 20px;
+    width: 300px;
+    height: 250px;
+    animation: sliding 90s linear infinite;
+    border-radius: 30px;
+    background: white;
+}
+
+@keyframes sliding {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-240px * 7))
+    }
+}
+
 .breadcrumb {
     display: inline-block;
     background: transparent;
