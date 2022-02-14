@@ -2096,6 +2096,14 @@ div[class*=' bg-black'] .blockquote.blockquote-style-4:before {
     background: white;
 }
 
+@media only screen and (max-width: 768px) {
+    .flexible-container img {
+        margin: 0 14px;
+        width: 150px;
+        height: 125px;
+    }
+}
+
 @keyframes sliding {
     0% {
         transform: translateX(0);
@@ -9994,8 +10002,10 @@ div[class*=' bg-black'] .clients-grid li:after {
     left: 20px;
 }
 
-.hover-over-arrow {
-    margin-left: 150px;
+@media only screen and (min-width: 768px) {
+    .hover-over-arrow {
+        margin-left: 150px;
+    }
 }
 
 .timeline-wrapper {
@@ -14815,6 +14825,13 @@ div[class*=' bg-black'] .testimonial-grid-box:after {
     backface-visibility: hidden;
     perspective: 1000px;
     animation-iteration-count: infinite;
+}
+
+@media only screen and (max-width: 768px) {
+    .treasure-chest {
+        width: 50%;
+        height: 50%;
+    }
 }
 
 @keyframes shake {
