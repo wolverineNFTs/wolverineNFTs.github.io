@@ -9329,6 +9329,16 @@ div[class*=' bg-black'] .clients-grid li:after {
     width: 25%;
 }
 
+.collection-drop {
+    margin-top: 17%;
+}
+
+@media (min-width: 768px) {
+    .collection-drop {
+        margin-top: 0px;
+    }
+}
+
 .footer {
     padding: 70px 0;
 }
@@ -10005,7 +10015,18 @@ div[class*=' bg-black'] .clients-grid li:after {
 @media only screen and (min-width: 768px) {
     .hover-over-arrow {
         margin-left: 150px;
+        padding-bottom: 100px;
     }
+}
+
+@media only screen and (max-width: 760px) {
+    .row div[class^="col-"]:not(.row) {
+        margin-bottom: 0px;
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    img {}
 }
 
 .timeline-wrapper {
@@ -14808,7 +14829,6 @@ div[class*=' bg-black'] .testimonial-grid-box:after {
 .treasure-chest {
     display: block;
     margin: 0 auto;
-    margin-top: 10%;
     margin-bottom: 10%;
     height: auto;
     width: 70%;
@@ -14825,6 +14845,13 @@ div[class*=' bg-black'] .testimonial-grid-box:after {
     backface-visibility: hidden;
     perspective: 1000px;
     animation-iteration-count: infinite;
+}
+
+@media only screen and (min-width: 768px) {
+    .treasure-chest {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
 }
 
 @media only screen and (max-width: 768px) {
