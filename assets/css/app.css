@@ -2080,6 +2080,7 @@ div[class*=' bg-black'] .blockquote.blockquote-style-4:before {
 .overflow-container {
     overflow-x: hidden;
     width: 100%;
+    padding-bottom: 5px;
 }
 
 .flexible-container {
@@ -2094,6 +2095,7 @@ div[class*=' bg-black'] .blockquote.blockquote-style-4:before {
     animation: sliding 90s linear infinite;
     border-radius: 30px;
     background: white;
+    box-shadow: 5px 5px 1px 1px rgba(75, 156, 211, 0.9);
 }
 
 @media only screen and (max-width: 768px) {
@@ -2101,6 +2103,7 @@ div[class*=' bg-black'] .blockquote.blockquote-style-4:before {
         margin: 0 14px;
         width: 150px;
         height: 125px;
+        box-shadow: 3px 3px 1px 1px rgba(75, 156, 211, 0.9);
     }
 }
 
@@ -12547,6 +12550,12 @@ div[class*=' bg-black'] .prices-box.prices-box-recommended {
     .section-2xl.bg-image .container,
     .section-2xl.bg-image .container-fluid {
         padding: 180px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sm-low-margin-section {
+        padding-bottom: 20px;
     }
 }
 
