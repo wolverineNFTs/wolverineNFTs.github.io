@@ -1195,9 +1195,10 @@ button:active {
     padding: 0 20px;
 }
 
-.row {
+
+/* .row {
     margin-bottom: -30px;
-}
+} */
 
 .row div[class^="col-"]:not(.row) {
     margin-bottom: 30px;
@@ -8079,6 +8080,8 @@ div[class*=' bg-grey'].header-top a:hover {
     }
 }
 
+p {}
+
 .pagination {
     margin: 0;
     padding: 0;
@@ -11556,6 +11559,10 @@ body.loaded:after {
     display: none;
 }
 
+.intro-nfts-section {
+    padding-bottom: 6rem;
+}
+
 .preloader {
     position: fixed;
     top: 0;
@@ -14887,6 +14894,16 @@ div[class*=' bg-black'] .testimonial-grid-box:after {
     40%,
     60% {
         transform: translate3d(2px, 0, 0);
+    }
+}
+
+.treasure-chest-section {
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+    .treasure-chest-section {
+        margin-bottom: 0;
     }
 }
 
