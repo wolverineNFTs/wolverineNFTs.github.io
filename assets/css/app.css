@@ -1192,7 +1192,7 @@ button:active {
 .container,
 .container-fluid {
     position: relative;
-    padding: 0 20px;
+    padding: 0px;
 }
 
 
@@ -2091,12 +2091,11 @@ div[class*=' bg-black'] .blockquote.blockquote-style-4:before {
 
 .flexible-container img {
     margin: 0 20px;
-    width: 300px;
-    height: 250px;
+    width: 17em;
+    height: 13.5em;
     animation: sliding 90s linear infinite;
     border-radius: 30px;
-    background: white;
-    box-shadow: 5px 5px 1px 1px rgba(75, 156, 211, 0.9);
+    background: transparent;
 }
 
 @media only screen and (max-width: 768px) {
@@ -3341,7 +3340,7 @@ a.button-fill-bottom-outline-white:hover:before {
 .button-reveal-left-dark i,
 .button-reveal-right-dark span,
 .button-reveal-right-dark i,
-.button-reveal-left-outline-grey span,
+.button-reveal-left-outline-grey ,
 .button-reveal-left-outline-grey i,
 .button-reveal-right-outline-grey span,
 .button-reveal-right-outline-grey i,
@@ -8241,7 +8240,7 @@ div[class*=' bg-black'] .pagination.hover-style-2 .page-item.active .page-link {
     transform: translateY(-50%);
     width: 100%;
     margin-top: -3px;
-    padding: 0 20px;
+    padding: 0 10px;
     text-align: center;
 }
 
@@ -8434,9 +8433,15 @@ div[class*=' bg-black'] .progress-box .progress .progress-bar {
     background: #d2d2d2;
 }
 
+@font-face {
+    font-family: 'Apple Ligothic';
+    src: url('../../fonts/apple-ligothic-medium.ttf');
+    font-style: normal;
+}
+
 body {
     color: #646464;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Apple Ligothic", sans-serif;
     font-size: 1em;
     font-weight: 300;
     letter-spacing: 0;
@@ -15086,12 +15091,40 @@ div[class*=' bg-white'].fullscreen-menu {
     display: inline-block;
 }
 
-.smalltext {
-    padding-top: 5px;
-    font-size: 16px;
-    color: white;
-}
+
 
 span {
     color: white;
 }
+@font-face {
+    font-family: 'Academy3D';
+    src: url('../../fonts/AcademyFilled3D.ttf');
+    font-style: normal;
+}
+
+#academy{
+    font-family: Academy3D;
+    font-size: 3.9em;
+    font-weight: normal !important;
+
+}
+
+#background{
+    background-image: url(../images/background.png);
+    background-size: auto;
+    object-fit: none;
+}
+
+.smalltext {
+    font-family: Apple LiGothic;
+    font-size: 1em;
+    margin-top: -0.75em;
+    color: white;
+}
+
+#largetext {
+    font-family: Apple LiGothic;
+    font-size: 2em;
+    color: white;
+}
+

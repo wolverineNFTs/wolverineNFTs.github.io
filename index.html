@@ -24,7 +24,7 @@
         <!-- navbar -->
         <nav class="navbar navbar-absolute-dark">
             <!-- add 'navbar-dark/navbar-grey/navbar-transparent/navbar-transparent-dark' -->
-            <div class="container">
+            <div style = "margin-top: 0.5em;" class = "container">
                 <a class="navbar-brand" href="index.html">
                     <h5 class="logo">Wolverine NFTs</h5>
                 </a>
@@ -54,23 +54,66 @@
     <!-- end Scroll to top button -->
 
     <!-- Home section -->
-    <div class="section sm-low-margin-section">
-        <div class="container">
+    <div id = "background" class="section sm-low-margin-section">
+        <div style = "margin-top: 0.5em;" class="container">
             <div class="row">
                 <div class="col-12 col-lg-12 col-xl-12">
-                    <h1 class="display-4 font-weight-bold margin-0 text-center">Exclusive <span style="color: rgb(255, 225, 57) !important;">Michigan</span> NFTs
-                        <br> Made by Wolverines,
-                        <br> For Wolverines.</h1>
+                    <h1 id = "academy" class="display-4 font-weight-bold margin-0 text-center">WELCOME TO WOLVERINE COLLECTIBLES</h1>
                 </div>
             </div>
             <!-- end row -->
         </div>
+        <!-- begin contact form -->
+    <div class="container">
+        <div class="row">
+            <div  style="margin-top: -1em;" class="col-12 col-lg-12 col-xl-12">
+                <form action="https://formspree.io/f/xjvlbenl" method="POST" style="display: flex; flex-wrap: wrap; flex-direction: column; align-items: center;">
+                    <label style="text-align: center; line-height: 1em; font-size: 2em; color: white;">
+						Claim your piece of Michigans Digital Legacy,<br>
+and obtain membership to our exclusive <span style = "color: rgb(255, 225, 57) !important;">Victors Valiant Club!</span>
+	
+					</label>
+                    <label style="margin-top: 1em; margin-bottom: -0.85em; text-align: center; line-height: 1em; font-size: 2em; color: white;">
+						Our Collection drops in:
+	
+					</label>
+                    <div class="row  justify-content-center">
+                        <div id="clockdiv">
+                            <div>
+                                <span id = "largetext" class="days"></span>
+                                <div class="smalltext">Days</div>
+                            </div>
+                            <div>
+                                <span  id = "largetext" class="hours"></span>
+                                <div class="smalltext">Hours</div>
+                            </div>
+                            <div>
+                                <span id = "largetext" class="minutes"></span>
+                                <div class="smalltext">Minutes</div>
+                            </div>
+                            <div>
+                                <span id = "largetext" class="seconds"></span>
+                                <div class="smalltext">Seconds</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- your other form fields go here -->
+                </form>
+            </div>
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+    <!-- end contact form -->
         <!-- end container -->
     </div>
     <!-- end Home section -->
 
+    
+
+    <div style = "padding: 0px !important" id = "background" class="section sm-low-margin-section">
+
     <!-- Carousel section-->
-    <div class="block-ms">
         <div class="overflow-container">
             <div class="flexible-container">
                 <img src="assets/images/blockms/blockm1.png" alt="">
@@ -94,70 +137,9 @@
     </div>
     <!-- end Carousel section-->
 
-    <!-- begin contact form -->
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-lg-12 col-xl-12">
-                <form action="https://formspree.io/f/xjvlbenl" method="POST" style="display: flex; flex-wrap: wrap; flex-direction: column; align-items: center;">
-                    <label style="font-size: 20px; color: white;">
-						Sign up with your email for a notification as soon as a collection launches:
-	
-					</label>
-                    <input autocomplete="off" class="emailbox" required="true" style="border-radius: 15px; height: 45px; max-width: 300px; margin-top: 1.5%; border: 2px solid white;" id="signup" type="email" name="_replyto">
-                    <!-- your other form fields go here -->
-                    <button class="signup" style="border-radius: 35px; padding: 8px; color: white; border: 2px solid white; margin-top: 6px; margin-bottom: 7%;" type="submit">
-						<div style="padding-left: 7.5px; padding-right: 7.5px">Get Notified!</div>
-					</button>
-                </form>
-            </div>
-        </div>
-        <!-- end row -->
-    </div>
-    <!-- end container -->
-    <!-- end contact form -->
 
-    <div class="container">
-        <div class="row collection-drop margin-bottom-10 justify-content-center">
-            <h1>Collection drops in:</h1>
-        </div>
-        <div class="row  justify-content-center">
-            <div id="clockdiv">
-                <div>
-                    <span class="days"></span>
-                    <div class="smalltext">Days</div>
-                </div>
-                <div>
-                    <span class="hours"></span>
-                    <div class="smalltext">Hours</div>
-                </div>
-                <div>
-                    <span class="minutes"></span>
-                    <div class="smalltext">Minutes</div>
-                </div>
-                <div>
-                    <span class="seconds"></span>
-                    <div class="smalltext">Seconds</div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <!-- Treasure Chest section -->
-    <div class="container treasure-chest-section">
-        <div class="row no-gutters align-items-center">
-            <div class="col-sm">
-                <img class="hover-over-arrow" src="assets/images/hoveroverme.png" alt="Hover over me arrow">
-            </div>
-            <div class="col-sm">
-                <img class="treasure-chest" src="assets/images/treasurechestresized.png" alt="Treasure Chest">
-            </div>
-            <div class="col-sm">
-            </div>
-        </div>
-        <!-- end row -->
-    </div>
-    <!-- end container -->
-    <!-- end Treasure Chest section -->
+  
 
     <!-- Intro to NFT's Section -->
     <div class="section intro-nfts-section bg-dark-lighter">
