@@ -1149,9 +1149,12 @@ body {
 .emailbox:focus {
     transition: 0.5s ease-out;
     border-color: rgb(255, 225, 57) !important;
+    color: black;
+
 }
 
 .signup {
+    font-size: 1.3em;
     transition: 0.5s ease-out;
 }
 
@@ -2091,8 +2094,8 @@ div[class*=' bg-black'] .blockquote.blockquote-style-4:before {
 
 .flexible-container img {
     margin: 0 20px;
-    width: 17em;
-    height: 13.5em;
+    width: 18em;
+    height: 16.5em;
     animation: sliding 90s linear infinite;
     border-radius: 30px;
     background: transparent;
@@ -6637,7 +6640,6 @@ div[class*=' bg-grey'].header-top a:hover {
 }
 
 .navbar .navbar-brand img {
-    max-height: 40px;
 }
 
 .navbar .navbar-brand h1,
@@ -8439,12 +8441,22 @@ div[class*=' bg-black'] .progress-box .progress .progress-bar {
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Ogg';
+    src: url('../../fonts/Ogg-Regular.ttf');
+    font-style: normal;
+}
+
+
 body {
     color: #646464;
-    font-family: "Apple Ligothic", sans-serif;
-    font-size: 1em;
+    font-family: "Ogg", sans-serif;
+    font-size: 0.85em;
     font-weight: 300;
-    letter-spacing: 0;
+    letter-spacing: 1px;
+    overscroll-behavior-y: none;
+    overscroll-behavior-x: none;
+    
 }
 
 h1,
@@ -12479,7 +12491,7 @@ div[class*=' bg-black'] .prices-box.prices-box-recommended {
 
 .section,
 .section-md {
-    padding-top: 95px;
+    padding-top: 60px;
 }
 
 .section.bg-image .container,
@@ -15102,6 +15114,11 @@ span {
     font-style: normal;
 }
 
+@font-face{
+    font-family: 'Academy';
+    src: url('../../fonts/Academy.ttf');
+    font-style: normal;
+}
 #academy{
     font-family: Academy3D;
     font-size: 3.9em;
@@ -15112,19 +15129,21 @@ span {
 #background{
     background-image: url(../images/background.png);
     background-size: auto;
-    object-fit: none;
+    object-fit:contain;
 }
 
 .smalltext {
-    font-family: Apple LiGothic;
-    font-size: 1em;
+    font-family:  Academy;
     margin-top: -0.75em;
     color: white;
 }
 
 #largetext {
-    font-family: Apple LiGothic;
-    font-size: 2em;
+    font-family:  Academy3D;
+    font-size: 1.8em;
     color: white;
 }
 
+footer{
+    background-image: url(../images/footerbackground.png);
+}
