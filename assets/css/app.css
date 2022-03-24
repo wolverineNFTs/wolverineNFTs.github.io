@@ -7249,7 +7249,7 @@ div[class*=' bg-grey'].header-top a:hover {
 
 .navbar-absolute,
 .navbar-absolute-dark {
-    position: absolute;
+    position: static;
     top: 0;
     left: 0;
     background: transparent;
@@ -15113,7 +15113,7 @@ span {
 }
 #academy{
     font-family: Academy3D;
-    font-size: 3.9em;
+    font-size: 3.5em;
     font-weight: normal !important;
 
 }
@@ -15169,9 +15169,12 @@ footer{
         font-size: 1.5em;
         margin-left: 2.5em;
         margin-right: 2.5em;
-
-
     }
+    .title{
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
+    
     #academy{
         font-size: 42px;
     }

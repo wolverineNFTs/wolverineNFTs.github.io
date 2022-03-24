@@ -1,5 +1,5 @@
 function getTimeRemaining(endtime) {
-    var endtime = new Date("March 14, 2022 12:00:00").getTime();
+    var endtime = new Date("April 4, 2022 12:00:00").getTime();
     curr_time = new Date().getTime()
     var distance = endtime - curr_time;
     // Time calculations for days, hours, minutes and seconds
