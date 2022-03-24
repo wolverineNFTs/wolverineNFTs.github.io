@@ -1214,6 +1214,7 @@ button:active {
 }
 
 @media (min-width: 576px) {
+ 
     .col-spacing-70 {
         margin-right: -35px;
         margin-bottom: -70px;
@@ -2088,6 +2089,10 @@ div[class*=' bg-black'] .blockquote.blockquote-style-4:before {
         margin: 0 14px;
         width: 150px;
         height: 125px;
+    }
+    .bodytext{
+        margin-left: 2em;
+        margin-right: 2em;
     }
 }
 
@@ -7305,25 +7310,25 @@ div[class*=' bg-grey'].header-top a:hover {
 .navbar-absolute-dark .nav-toggle-btn .lines,
 .navbar-absolute-dark .nav-toggle-btn .lines:before,
 .navbar-absolute-dark .nav-toggle-btn .lines:after {
-    background: #141414;
+    background: rgb(255, 225, 57);
 }
 
 .navbar-absolute-dark .list-horizontal li,
 .navbar-absolute-dark .list-horizontal-unstyled li,
 .navbar-absolute-dark .list-horizontal-dash li {
-    color: #646464;
+    color: rgb(255, 225, 57);
 }
 
 .navbar-absolute-dark .list-horizontal li a,
 .navbar-absolute-dark .list-horizontal-unstyled li a,
 .navbar-absolute-dark .list-horizontal-dash li a {
-    color: #141414;
+    color: rgb(255, 225, 57);
 }
 
 .navbar-absolute-dark .list-horizontal li a:hover,
 .navbar-absolute-dark .list-horizontal-unstyled li a:hover,
 .navbar-absolute-dark .list-horizontal-dash li a:hover {
-    color: #646464;
+    color: rgb(255, 225, 57);
 }
 
 @media (min-width: 992px) {
@@ -15155,7 +15160,7 @@ footer{
         transform: translateX(-50%);
     }
     #description{
-        font-size: 16px;
+        font-size: 1.3em;
         margin-left: 2.5em;
         margin-right: 2.5em;
 
