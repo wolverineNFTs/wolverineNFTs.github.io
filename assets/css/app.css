@@ -1156,7 +1156,7 @@ body {
 }
 
 .signup {
-    font-size: 1.3em;
+    font-size: 1.5em;
     transition: 0.5s ease-out;
 }
 
@@ -15166,7 +15166,7 @@ footer{
         transform: translateX(-50%);
     }
     #description{
-        font-size: 1.3em;
+        font-size: 1.5em;
         margin-left: 2.5em;
         margin-right: 2.5em;
 
