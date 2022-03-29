@@ -1152,7 +1152,6 @@ body {
     transition: 0.5s ease-out;
     border-color: rgb(255, 225, 57) !important;
     color: black;
-
 }
 
 .signup {
@@ -1214,7 +1213,6 @@ button:active {
 }
 
 @media (min-width: 576px) {
- 
     .col-spacing-70 {
         margin-right: -35px;
         margin-bottom: -70px;
@@ -1445,8 +1443,6 @@ button:active {
         transform: translateX(-50%);
     }
 }
-
-
 
 mark {
     background: #f5f5f5;
@@ -2096,7 +2092,7 @@ div[class*=' bg-black'] .blockquote.blockquote-style-4:before {
         width: 150px;
         height: 125px;
     }
-    .bodytext{
+    .bodytext {
         margin-left: 2em;
         margin-right: 2em;
     }
@@ -3335,7 +3331,7 @@ a.button-fill-bottom-outline-white:hover:before {
 .button-reveal-left-dark i,
 .button-reveal-right-dark span,
 .button-reveal-right-dark i,
-.button-reveal-left-outline-grey ,
+.button-reveal-left-outline-grey,
 .button-reveal-left-outline-grey i,
 .button-reveal-right-outline-grey span,
 .button-reveal-right-outline-grey i,
@@ -6631,8 +6627,7 @@ div[class*=' bg-grey'].header-top a:hover {
     margin-right: 2rem;
 }
 
-.navbar .navbar-brand img {
-}
+.navbar .navbar-brand img {}
 
 .navbar .navbar-brand h1,
 .navbar .navbar-brand h2,
@@ -8439,7 +8434,6 @@ div[class*=' bg-black'] .progress-box .progress .progress-bar {
     font-style: normal;
 }
 
-
 body {
     color: #646464;
     font-family: "Ogg", sans-serif;
@@ -8448,7 +8442,6 @@ body {
     letter-spacing: 1px;
     overscroll-behavior-y: none;
     overscroll-behavior-x: none;
-    
 }
 
 h1,
@@ -15095,54 +15088,57 @@ div[class*=' bg-white'].fullscreen-menu {
     display: inline-block;
 }
 
-
-
 span {
     color: white;
 }
+
 @font-face {
     font-family: 'Academy3D';
     src: url('../../fonts/AcademyFilled3D.ttf');
     font-style: normal;
 }
 
-@font-face{
+@font-face {
     font-family: 'Academy';
     src: url('../../fonts/Academy.ttf');
     font-style: normal;
 }
-#academy{
+
+#academy {
     font-family: Academy3D;
     font-size: 3.5em;
     font-weight: normal !important;
-
 }
 
-#background{
+#background {
     background-image: url(../images/background.png);
     background-size: auto;
-    object-fit:contain;
+    object-fit: contain;
 }
 
 .smalltext {
-    font-family:  Academy;
+    font-family: Academy;
     margin-top: -0.75em;
     color: white;
 }
 
 #largetext {
-    font-family:  Academy3D;
+    font-family: Academy3D;
     font-size: 1.8em;
     color: white;
 }
 
-footer{
+footer {
     background-image: url(../images/footerbackground.png);
 }
 
-
-#description{
-    text-align: center; margin-left: 5em; margin-right: 5em; line-height: 1.35em; font-size: 1.5em; color: white;
+#description {
+    text-align: center;
+    margin-left: 5em;
+    margin-right: 5em;
+    line-height: 1.35em;
+    font-size: 1.5em;
+    color: white;
 }
 
 @media (min-width: 390px) {
@@ -15165,17 +15161,16 @@ footer{
         -webkit-transform: translateX(-50%);
         transform: translateX(-50%);
     }
-    #description{
+    #description {
         font-size: 1.5em;
         margin-left: 2.5em;
         margin-right: 2.5em;
     }
-    .title{
+    /* .title{
         margin-left: 0.5em;
         margin-right: 0.5em;
-    }
-    
-    #academy{
+    } */
+    #academy {
         font-size: 42px;
     }
 }
