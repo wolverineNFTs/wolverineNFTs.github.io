@@ -15166,11 +15166,17 @@ footer {
         margin-left: 2.5em;
         margin-right: 2.5em;
     }
-    /* .title{
+    .title {
         margin-left: 0.5em;
         margin-right: 0.5em;
-    } */
+    }
     #academy {
         font-size: 42px;
+    }
+    @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+        .title {
+            margin-left: 0;
+            margin-right: 0;
+        }
     }
 }
