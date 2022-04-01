@@ -15134,8 +15134,8 @@ footer {
 
 #description {
     text-align: center;
-    margin-left: 5em;
-    margin-right: 5em;
+    margin-left: 1em;
+    margin-right: 1em;
     line-height: 1.35em;
     font-size: 1.5em;
     color: white;
@@ -15173,10 +15173,30 @@ footer {
     #academy {
         font-size: 42px;
     }
-    @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
-        .title {
-            margin-left: 0;
-            margin-right: 0;
-        }
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+    .title {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .extra-margin {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .increased-line-height {
+        line-height: 1.6;
+    }
+    .smaller-text {
+        font-size: 0.75em
+    }
+}
+
+@media (min-width: 576px) {
+    .increased-line-height {
+        line-height: 1.6;
     }
 }
