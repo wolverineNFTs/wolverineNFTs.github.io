@@ -8428,16 +8428,18 @@ div[class*=' bg-black'] .progress-box .progress .progress-bar {
     font-style: normal;
 }
 
+
+/* 
 @font-face {
     font-family: 'Ogg';
     src: url('../../fonts/Ogg-Regular.ttf');
     font-style: normal;
-}
+} */
 
 body {
     color: #646464;
-    font-family: "Ogg", sans-serif;
-    font-size: 0.85em;
+    font-family: "Apple Ligothic", sans-serif;
+    font-size: 0.75em;
     font-weight: 300;
     letter-spacing: 1px;
     overscroll-behavior-y: none;
