@@ -1159,6 +1159,16 @@ body {
     transition: 0.5s ease-out;
 }
 
+.signup2 {
+    font-size: 1.5em;
+    transition: 0.5s ease-out;
+    background-color: rgb(255, 225, 57);
+    color: #000443;
+}
+
+.signup2{
+    text-decoration: underline;
+}
 .signup:hover {
     transition: 0.5s ease-out;
     border-color: rgb(255, 225, 57) !important;
