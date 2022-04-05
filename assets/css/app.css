@@ -1179,14 +1179,14 @@ body {
 
 .signup3 {
     font-size: 1.5em;
-    transition: 0.1s ease-out;
+    transition: 0.5s ease-out;
 }
 
 .signup3:hover {
-    transition: 0.1s ease-out;
+    transition: 0.5s ease-out;
     border-color: rgb(255, 225, 57) !important;
     color: white !important;
-    transition: 0.1s linear;
+    transition: 0.5s linear;
 }
 
 a {
